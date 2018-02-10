@@ -1,0 +1,16 @@
+static int FibonacciNumber(int num)
+        {
+            int fibonacciNumber = 1;
+            int firstNum = 1;
+            int secondNum = 1;
+            if (num>1)
+            {
+                for (int i = 2; i <= num; i++)
+                {
+                    fibonacciNumber = firstNum + secondNum;
+                    secondNum = firstNum;
+                    firstNum = fibonacciNumber;
+                }
+            }
+            return fibonacciNumber;
+        }
