@@ -10,7 +10,7 @@ static int FibonacciNumber(int num)
                     fibonacciNumber = firstNum + secondNum;
                     secondNum = firstNum;
                     firstNum = fibonacciNumber;
-                }
+                } 
             }
             return fibonacciNumber;
         }
